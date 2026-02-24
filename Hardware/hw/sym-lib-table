@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "usini_sensors")(type "Legacy")(uri "C:/Users/Peter Kolok/Downloads/usini_kicad_sensors-main/usini_kicad_sensors-main/usini_sensors.lib")(options "")(descr ""))
+)
