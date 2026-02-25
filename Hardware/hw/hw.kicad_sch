@@ -5,6 +5,141 @@
 	(uuid "e8888c0f-4960-4960-b96f-1ca6e03d7c29")
 	(paper "A4")
 	(lib_symbols
+		(symbol "BQ24650:BQ24650"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.508 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BQ24650_1_1"
+				(rectangle
+					(start -12.7 -1.27)
+					(end 11.43 -8.89)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 0 199 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -2.54 180)
+					(length 2.54)
+					(name "Vin+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -7.62 180)
+					(length 2.54)
+					(name "Vin-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 -2.54 0)
+					(length 2.54)
+					(name "Bat+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 -7.62 0)
+					(length 2.54)
+					(name "Bat-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Battery_Management:TP4056-42-ESOP8"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4092,6 +4227,26 @@
 		)
 		(uuid "e3c6cb9d-a70f-4bb1-86a8-ff1ee98a2839")
 	)
+	(wire
+		(pts
+			(xy 31.75 124.46) (xy 26.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b4cec7-41c5-4568-a6b8-a5dae4c20565")
+	)
+	(wire
+		(pts
+			(xy 31.75 121.92) (xy 26.67 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f043d529-5361-49b3-80b9-0f06808cef4b")
+	)
 	(global_label "I2C_SDA"
 		(shape input)
 		(at 26.67 124.46 180)
@@ -5745,7 +5900,7 @@
 	)
 	(symbol
 		(lib_id "Timer_RTC:RV-3028-C7")
-		(at 39.37 127 0)
+		(at 44.45 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5754,7 +5909,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0911710-fbfb-4b06-8f02-dd998e61d983")
 		(property "Reference" "U2"
-			(at 41.5133 137.16 0)
+			(at 46.5933 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5918,7 @@
 			)
 		)
 		(property "Value" "RV-3028-C7"
-			(at 41.5133 139.7 0)
+			(at 46.5933 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5927,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
-			(at 64.77 135.89 0)
+			(at 69.85 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +5936,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3028-C7.pdf"
-			(at 39.37 127 0)
+			(at 44.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5945,7 @@
 			)
 		)
 		(property "Description" "Realtime Clock/Calendar I2C Interface, Extreme Low Power, 1.1 V to 5.5 V, MicroCrystal C7"
-			(at 39.37 127 0)
+			(at 44.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,6 +6635,80 @@
 			(project ""
 				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BQ24650:BQ24650")
+		(at 88.9 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5e132c1-0382-46b7-a1e3-90eecb37d5af")
+		(property "Reference" "U7"
+			(at 88.265 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.265 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4a868471-1a33-4b9f-b58d-e193082abb22")
+		)
+		(pin "3"
+			(uuid "6cd649f7-513a-416c-8239-791cdab3c069")
+		)
+		(pin "2"
+			(uuid "883ac41a-fe08-48da-aae8-5442b8f9f670")
+		)
+		(pin "1"
+			(uuid "562cdff0-c90c-4a6c-8ef0-7aaca24c6a98")
+		)
+		(instances
+			(project ""
+				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29"
+					(reference "U7")
 					(unit 1)
 				)
 			)

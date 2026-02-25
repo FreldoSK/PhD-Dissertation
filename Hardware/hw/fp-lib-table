@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BQ24650_Module")(type "KiCad")(uri "${KIPRJMOD}/components/BQ24650_Module")(options "")(descr ""))
+)
