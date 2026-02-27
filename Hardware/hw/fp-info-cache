@@ -1,4 +1,4 @@
-26910867209122345
+26914411583094968
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97663,6 +97663,20 @@ SOT95P280X145-5N
 0
 5
 5
+SMBJ24CA
+DO214AA
+Diode SMB Standard
+Diode SMB Standard
+0
+2
+2
+SMBJ24CA
+Untitled
+
+
+0
+0
+0
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

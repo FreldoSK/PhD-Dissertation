@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "usini_sensors")(type "Legacy")(uri "C:/Users/Peter Kolok/Downloads/usini_kicad_sensors-main/usini_kicad_sensors-main/usini_sensors.lib")(options "")(descr ""))
   (lib (name "BQ24650")(type "KiCad")(uri "${KIPRJMOD}/components/BQ24650_Module/BQ24650.kicad_sym")(options "")(descr ""))
+  (lib (name "SMBJ24CA")(type "KiCad")(uri "${KIPRJMOD}/components/SMBJ24CA_Diode/SMBJ24CA.kicad_sym")(options "")(descr ""))
 )
