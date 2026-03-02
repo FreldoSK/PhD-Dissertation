@@ -332,130 +332,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "INA219:INA219"
 			(pin_names
 				(offset 1.016)
@@ -878,212 +754,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PRT-12885:Sunny Buddy PRT-12885"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Sunny Buddy PRT-12885_1_1"
-				(rectangle
-					(start -7.62 -1.27)
-					(end 7.62 -21.59)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -10.16 -3.81 0)
-					(length 2.54)
-					(name "Sol+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -6.35 0)
-					(length 2.54)
-					(name "Sol-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -11.43 0)
-					(length 2.54)
-					(name "SET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -13.97 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -16.51 0)
-					(length 2.54)
-					(name "FAULT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -19.05 0)
-					(length 2.54)
-					(name "CHG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "LOAD+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "LOAD-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1664,18 +1334,6 @@
 		(color 0 0 0 0)
 		(uuid "92c3397e-ef68-482c-87cb-f459725595d8")
 	)
-	(junction
-		(at 88.9 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c308145b-255f-4438-989a-9643770fb6f6")
-	)
-	(junction
-		(at 99.06 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5eed71f-0d4d-4c6d-83ad-3aa625c85f00")
-	)
 	(wire
 		(pts
 			(xy 62.23 58.42) (xy 58.42 58.42)
@@ -1708,16 +1366,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 54.61) (xy 99.06 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25c453d1-0d93-4854-a0e1-8a34dcd50b1a")
-	)
-	(wire
-		(pts
 			(xy 73.66 58.42) (xy 73.66 62.23)
 		)
 		(stroke
@@ -1725,36 +1373,6 @@
 			(type default)
 		)
 		(uuid "38e38985-3676-46fc-b48c-7944e9269cc7")
-	)
-	(wire
-		(pts
-			(xy 99.06 54.61) (xy 99.06 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "604de8ac-528d-4405-8ec7-8fcb73ca2980")
-	)
-	(wire
-		(pts
-			(xy 88.9 39.37) (xy 93.98 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a18a6b-31d2-4f47-ad55-d157602ec7d4")
-	)
-	(wire
-		(pts
-			(xy 88.9 39.37) (xy 88.9 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77a77eb6-27b9-442c-8f2a-2a2b074f4ed3")
 	)
 	(wire
 		(pts
@@ -1798,16 +1416,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 46.99) (xy 99.06 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a08272ad-ef3e-48e3-baf2-d2769c47c735")
-	)
-	(wire
-		(pts
 			(xy 66.04 46.99) (xy 73.66 46.99)
 		)
 		(stroke
@@ -1828,26 +1436,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 39.37) (xy 88.9 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eab4a0fa-be64-428a-8d7f-849d879236e9")
-	)
-	(wire
-		(pts
-			(xy 88.9 50.8) (xy 88.9 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edc0bb3f-7b9a-4df1-ac96-a971d17c434a")
-	)
-	(wire
-		(pts
 			(xy 73.66 46.99) (xy 81.28 46.99)
 		)
 		(stroke
@@ -1865,76 +1453,6 @@
 			(type default)
 		)
 		(uuid "fae6d062-5ee0-43c2-a7f0-031e12253376")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b80fa29-cb13-4a0f-8b1b-9a001cc7f96b")
-		(property "Reference" "R4"
-			(at 101.6 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 101.6 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.282 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b38e3c77-1cf4-4a01-b846-0dae897b5cad")
-		)
-		(pin "2"
-			(uuid "fcfddc9f-350c-43e5-a756-1d4f0762e83a")
-		)
-		(instances
-			(project ""
-				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/cafc10db-934b-4e35-adb4-dd7509107608"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
@@ -2170,104 +1688,6 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 99.06 41.91 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "327cd3f5-bb86-4c2c-bf36-8fd6dffc3e9c")
-		(property "Reference" "Q4"
-			(at 99.06 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 99.06 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 86.36 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 99.06 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 81.915 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 80.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 83.82 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f64e3d1-bbb7-41e2-9d8b-f5a6a57eb096")
-		)
-		(pin "3"
-			(uuid "d8360d75-fb38-46f2-a76b-6d685d30e828")
-		)
-		(pin "2"
-			(uuid "7d6752a0-05d9-49d5-8abb-0f4ef2e36bf7")
-		)
-		(instances
-			(project "hw"
-				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/cafc10db-934b-4e35-adb4-dd7509107608"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
 		(at 81.28 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2434,7 +1854,7 @@
 	)
 	(symbol
 		(lib_id "INA219:INA219")
-		(at 142.24 50.8 0)
+		(at 107.95 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2443,7 +1863,7 @@
 		(fields_autoplaced yes)
 		(uuid "44d8d148-29e2-4246-b5aa-77fd1d5e4386")
 		(property "Reference" "U3"
-			(at 142.24 35.56 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +1871,7 @@
 			)
 		)
 		(property "Value" "INA219"
-			(at 142.24 38.1 0)
+			(at 107.95 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +1879,7 @@
 			)
 		)
 		(property "Footprint" "INA219:MODULE_INA219"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +1889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +1898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +1907,7 @@
 			)
 		)
 		(property "MF" "Adafruit Industries"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +1917,7 @@
 			)
 		)
 		(property "Description_1" "INA219 High Side DC Current Sensor Breakout - 26V ±3.2A Max | Adafruit Industries 904"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +1927,7 @@
 			)
 		)
 		(property "CREATOR" "ANA"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +1937,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +1947,7 @@
 			)
 		)
 		(property "Package" "NON-STANDARD-8 ADAFRUIT"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +1957,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/INA219%20High%20Side%20DC%20Current%20Sensor%20Breakout%20-%2026V%20%C2%B13.2A%20Max%20-%20STEMMA%20QT/Adafruit+Industries/view-part/?ref=eda"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +1967,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +1977,7 @@
 			)
 		)
 		(property "PARTREV" "C"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +1987,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +1997,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA219%20High%20Side%20DC%20Current%20Sensor%20Breakout%20-%2026V%20%C2%B13.2A%20Max%20-%20STEMMA%20QT/Adafruit+Industries/view-part/?ref=snap"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +2007,7 @@
 			)
 		)
 		(property "MP" "INA219 High Side DC Current Sensor Breakout - 26V ±3.2A Max - STEMMA QT"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2017,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Adafruit Industries LLC"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2027,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2037,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "INA219 High Side DC Current Sensor Breakout - 26V ±3.2A Max - STEMMA QT"
-			(at 142.24 50.8 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,162 +2086,6 @@
 			(project "hw"
 				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/cafc10db-934b-4e35-adb4-dd7509107608"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 88.9 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f6c373f-5f91-402f-beef-94f3198496c8")
-		(property "Reference" "R3"
-			(at 91.44 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 91.44 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.122 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 88.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "986d069c-eb51-483e-91a2-63e4029cb193")
-		)
-		(pin "2"
-			(uuid "e9cb8c33-b874-4a54-af2f-2d0ab4fffb1a")
-		)
-		(instances
-			(project "hw"
-				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/cafc10db-934b-4e35-adb4-dd7509107608"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PRT-12885:Sunny Buddy PRT-12885")
-		(at 128.27 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "892e2ec8-7411-470b-95a0-7bada38860aa")
-		(property "Reference" "U8"
-			(at 128.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PRT-12885"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "84d828bf-0d89-4d10-a67f-a5face01589f")
-		)
-		(pin "3"
-			(uuid "fcf8a0ae-63ef-40b2-91cb-97226b3087f1")
-		)
-		(pin "1"
-			(uuid "9b1df285-cc0c-43dc-8fdb-fd39eff354a2")
-		)
-		(pin ""
-			(uuid "bc5b5bf7-af8a-4eb7-9db8-4c1b6d3ff063")
-		)
-		(pin ""
-			(uuid "8d4bbdf2-bd6f-472b-b4ea-44c9d511e97d")
-		)
-		(pin "4"
-			(uuid "942b68bf-891f-4586-bf33-5e7c2ca13383")
-		)
-		(pin "5"
-			(uuid "7bf3e9a2-92b9-4b72-b657-6817bdf0d277")
-		)
-		(pin "2"
-			(uuid "0e0fb7fe-7d41-4bd8-b53b-fb72ed7404ba")
-		)
-		(instances
-			(project ""
-				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/cafc10db-934b-4e35-adb4-dd7509107608"
-					(reference "U8")
 					(unit 1)
 				)
 			)
