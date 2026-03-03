@@ -2195,7 +2195,7 @@
 	(footprint "PCM_Espressif:ESP32-C6-WROOM-1"
 		(layer "F.Cu")
 		(uuid "6948fa94-cc95-4e46-96e1-046675115184")
-		(at 67.365 109.915)
+		(at 160 85.5)
 		(descr "ESP32-C6-WROOM-1: https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf")
 		(tags "esp32-c6")
 		(property "Reference" "U1"
@@ -2814,7 +2814,7 @@
 			)
 			(polygon
 				(pts
-					(xy 76.365 100.165) (xy 58.365 100.165) (xy 58.365 94.165) (xy 76.365 94.165)
+					(xy 169 75.75) (xy 151 75.75) (xy 151 69.75) (xy 169 69.75)
 				)
 			)
 		)

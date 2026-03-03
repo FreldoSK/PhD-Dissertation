@@ -5,4 +5,5 @@
   (lib (name "SMBJ24CA")(type "KiCad")(uri "${KIPRJMOD}/components/SMBJ24CA_Diode/SMBJ24CA.kicad_sym")(options "")(descr ""))
   (lib (name "PRT-12885")(type "KiCad")(uri "${KIPRJMOD}/components/SunnyBuddy/PRT-12885.kicad_sym")(options "")(descr ""))
   (lib (name "DVIULC6-4SC6")(type "KiCad")(uri "${KIPRJMOD}/components/MyESDProtection/DVIULC6-4SC6.kicad_sym")(options "")(descr ""))
+  (lib (name "SMS3.3")(type "KiCad")(uri "${KIPRJMOD}/components/ESD_Protection/SMS3.3.kicad_sym")(options "")(descr ""))
 )
