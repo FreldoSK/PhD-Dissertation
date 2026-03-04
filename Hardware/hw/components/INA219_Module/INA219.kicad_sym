@@ -207,24 +207,6 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at 2.54 15.24 270)
-				(length 5.08)
-				(name "VIN-"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin input clock
 				(at 15.24 2.54 180)
 				(length 5.08)
@@ -279,17 +261,19 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 15.24 -7.62 180)
+		)
+		(symbol "INA219_1_0"
+			(pin input line
+				(at -5.08 15.24 270)
 				(length 5.08)
-				(name "GND"
+				(name "VIN+"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "2"
+				(number "5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -297,12 +281,10 @@
 					)
 				)
 			)
-		)
-		(symbol "INA219_1_0"
 			(pin input line
-				(at -5.08 15.24 270)
+				(at 2.54 15.24 270)
 				(length 5.08)
-				(name "VIN+"
+				(name "VIN-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -328,6 +310,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -7.62 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
