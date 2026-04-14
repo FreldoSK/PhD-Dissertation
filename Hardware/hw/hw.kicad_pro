@@ -621,6 +621,10 @@
     [
       "cafc10db-934b-4e35-adb4-dd7509107608",
       "Charging logic"
+    ],
+    [
+      "165983b8-c21c-41b9-942e-363d993dece6",
+      "IoTdevice"
     ]
   ],
   "text_variables": {}
