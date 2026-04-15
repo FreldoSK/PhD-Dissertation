@@ -625,6 +625,10 @@
     [
       "165983b8-c21c-41b9-942e-363d993dece6",
       "IoTdevice"
+    ],
+    [
+      "b426acf0-df42-40cd-b701-67d2ed15efe7",
+      "garbage"
     ]
   ],
   "text_variables": {}
