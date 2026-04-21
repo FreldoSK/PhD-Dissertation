@@ -615,16 +615,16 @@
       "Root"
     ],
     [
-      "b0238f9f-91cf-48c0-9ad1-65f733eb32f2",
-      "blokovka"
-    ],
-    [
       "cafc10db-934b-4e35-adb4-dd7509107608",
-      "Charging logic"
+      "Charging"
     ],
     [
       "165983b8-c21c-41b9-942e-363d993dece6",
-      "IoTdevice"
+      "ESP32"
+    ],
+    [
+      "d9cf18c0-974c-45c8-8ea1-a49ffa03ac64",
+      "Sensors"
     ],
     [
       "b426acf0-df42-40cd-b701-67d2ed15efe7",

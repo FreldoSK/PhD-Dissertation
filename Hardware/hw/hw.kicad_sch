@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "165983b8-c21c-41b9-942e-363d993dece6")
-		(property "Sheetname" "IoTdevice"
+		(property "Sheetname" "ESP32"
 			(at 44.45 65.3284 0)
 			(effects
 				(font
@@ -42,57 +42,7 @@
 		(instances
 			(project "hw"
 				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 95.25 19.05)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b0238f9f-91cf-48c0-9ad1-65f733eb32f2")
-		(property "Sheetname" "blokovka"
-			(at 95.25 18.3384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "blokovka.kicad_sch"
-			(at 95.25 23.4446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Field2" ""
-			(at 95.25 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "hw"
-				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
@@ -155,7 +105,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "cafc10db-934b-4e35-adb4-dd7509107608")
-		(property "Sheetname" "Charging logic"
+		(property "Sheetname" "Charging"
 			(at 44.45 17.0684 0)
 			(effects
 				(font
@@ -186,7 +136,49 @@
 		(instances
 			(project "hw"
 				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29"
-					(page "3")
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 121.92)
+		(size 24.13 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9cf18c0-974c-45c8-8ea1-a49ffa03ac64")
+		(property "Sheetname" "Sensors"
+			(at 104.14 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 104.14 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hw"
+				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29"
+					(page "4")
 				)
 			)
 		)
