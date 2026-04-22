@@ -4530,7 +4530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "4k7"
 			(at 185.42 126.9999 0)
 			(effects
 				(font
@@ -6294,7 +6294,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "4k7"
 			(at 175.26 126.9999 0)
 			(effects
 				(font
