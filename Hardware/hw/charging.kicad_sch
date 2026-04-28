@@ -7,7 +7,7 @@
 	(title_block
 		(title "Solar Power Management and Monitoring Circuit")
 		(date "2026-04-24")
-		(rev "Michal Hodoň")
+		(rev "Tomáš Bača")
 		(company "UNIZA Faculty of Management Science and Informatics Department of Technical Cybernetics")
 		(comment 1 "Author: Peter Kolok")
 	)
@@ -2168,7 +2168,7 @@
 		(start 59.69 96.52)
 		(end 146.05 133.35)
 		(stroke
-			(width 0.635)
+			(width 0.381)
 			(type solid)
 		)
 		(fill
@@ -2180,7 +2180,7 @@
 		(start 208.28 77.47)
 		(end 284.9722 138.467)
 		(stroke
-			(width 0.635)
+			(width 0.381)
 			(type solid)
 		)
 		(fill
@@ -2189,10 +2189,10 @@
 		(uuid 9b966684-dcaf-4c4b-9e34-d19b9617e89e)
 	)
 	(rectangle
-		(start 133.35 12.1377)
+		(start 133.3388 12.1436)
 		(end 208.28 77.47)
 		(stroke
-			(width 0.635)
+			(width 0.381)
 			(type solid)
 		)
 		(fill
@@ -2201,10 +2201,10 @@
 		(uuid cebb0154-9797-45c1-9cdb-7a57d7a70fc5)
 	)
 	(rectangle
-		(start 12.0671 12.0865)
-		(end 133.35 77.47)
+		(start 12.0671 12.0754)
+		(end 133.2934 77.47)
 		(stroke
-			(width 0.635)
+			(width 0.381)
 			(type solid)
 		)
 		(fill
@@ -2216,7 +2216,7 @@
 		(start 208.28 12.0866)
 		(end 284.9875 77.47)
 		(stroke
-			(width 0.635)
+			(width 0.381)
 			(type solid)
 		)
 		(fill
@@ -3610,7 +3610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NMOS:SOT95P230X110-3N"
 			(at 105.41 106.68 0)
 			(effects
 				(font
