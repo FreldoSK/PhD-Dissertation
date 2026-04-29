@@ -4488,7 +4488,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 157.48) (xy 49.53 162.56)
+			(xy 49.53 157.48) (xy 49.53 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4508,7 +4508,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 67.31) (xy 143.51 67.31)
+			(xy 142.24 67.31) (xy 146.05 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4908,7 +4908,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 157.48) (xy 114.3 162.56)
+			(xy 114.3 157.48) (xy 114.3 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4998,7 +4998,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 170.18) (xy 127 185.42)
+			(xy 127 175.26) (xy 127 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5078,7 +5078,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 67.31) (xy 158.75 67.31)
+			(xy 153.67 67.31) (xy 158.75 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5238,7 +5238,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 157.48) (xy 127 162.56)
+			(xy 127 157.48) (xy 127 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5418,7 +5418,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 170.18) (xy 49.53 185.42)
+			(xy 49.53 175.26) (xy 49.53 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5478,7 +5478,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 170.18) (xy 114.3 185.42)
+			(xy 114.3 175.26) (xy 114.3 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6507,7 +6507,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 166.37 0)
+		(at 114.3 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6516,7 +6516,7 @@
 		(fields_autoplaced yes)
 		(uuid "1886f7bc-f2a4-41d4-a130-a143f898496b")
 		(property "Reference" "C4"
-			(at 118.11 165.0999 0)
+			(at 118.11 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6525,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 118.11 167.6399 0)
+			(at 118.11 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,7 +6534,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 115.2652 170.18 0)
+			(at 115.2652 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,7 +6543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 166.37 0)
+			(at 114.3 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +6552,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 114.3 166.37 0)
+			(at 114.3 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,7 +7706,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 166.37 0)
+		(at 127 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7715,7 +7715,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b22649a-12a0-4300-a995-13e4364f41fa")
 		(property "Reference" "C5"
-			(at 130.81 165.0999 0)
+			(at 130.81 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,7 +7724,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 130.81 167.6399 0)
+			(at 130.81 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,7 +7733,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 127.9652 170.18 0)
+			(at 127.9652 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +7742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 166.37 0)
+			(at 127 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +7751,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 166.37 0)
+			(at 127 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +8782,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 67.31 270)
+		(at 149.86 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8790,7 +8790,7 @@
 		(dnp no)
 		(uuid "8bc63899-0b61-43ba-9f06-523ec440f0b4")
 		(property "Reference" "R27"
-			(at 147.32 62.484 90)
+			(at 149.86 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8798,7 +8798,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 147.32 65.024 90)
+			(at 149.86 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8806,7 +8806,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 147.32 65.532 90)
+			(at 149.86 65.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,7 +8815,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 67.31 0)
+			(at 149.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +8824,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 67.31 0)
+			(at 149.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9692,7 +9692,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 166.37 0)
+		(at 49.53 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9701,7 +9701,7 @@
 		(fields_autoplaced yes)
 		(uuid "c69b160f-a7fb-47b7-a741-a43aa07f19bd")
 		(property "Reference" "C2"
-			(at 53.34 165.0999 0)
+			(at 53.34 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9710,7 +9710,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 53.34 167.6399 0)
+			(at 53.34 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9719,7 +9719,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 50.4952 170.18 0)
+			(at 50.4952 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9728,7 +9728,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 166.37 0)
+			(at 49.53 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9737,7 +9737,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 166.37 0)
+			(at 49.53 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
