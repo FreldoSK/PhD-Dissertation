@@ -1,131 +1,62 @@
-"""Author: Ing. Tomas Baca."""
-from machine import Pin
-from machine import PWM
+import network
+import socket
+import time
+import machine
 
-class Engines:
-    """Class for work with the engines."""
+#kod pre klienta - server vytvara aj WIFI AP
+SERVER_IP = "192.168.4.1"   #IP adresa druhej strany, teda servera
+SERVER_PORT : int = 65000    #zistit od servera
+nic : network.WLAN = network.WLAN(network.STA_IF)
+s : socket.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-    def __init__(self,
-                 right_engine_forward_pin: int = 18,
-                 right_engine_reverse_pin: int = 19,
-                 left_engine_forward_pin: int = 20,
-                 left_engine_reverse_pin: int = 22) -> None:
-        """
-        Execute the constructor.
+nic.active(False)
+time.sleep_ms(500)
+nic.active(True)
+#pripojenie sa na existujucu wifi siet ktoru vytvara server
+nic.connect("ESP_MATUS_test", "heslo1234")    #SSID a heslo wifi siete
 
-        :param right_engine_forward_pin: Pin to which is connected plus of the M1.
-        :param right_engine_reverse_pin: Pin to which is connected minus of the M1.
-        :param left_engine_forward_pin: Pin to which is connected plus of the M2.
-        :param left_engine_reverse_pin: Pin to which is connected minus of the M2.
-        :return:
-        """
-        self.__right_engine_forward: PWM = PWM(
-            Pin(right_engine_forward_pin), freq=15000, duty_u16=0)
-        self.__right_engine_reverse: PWM = PWM(
-            Pin(right_engine_reverse_pin), freq=15000, duty_u16=0)
-        self.__left_engine_forward: PWM = PWM(
-            Pin(left_engine_forward_pin), freq=15000, duty_u16=0)
-        self.__left_engine_reverse: PWM = PWM(
-            Pin(left_engine_reverse_pin), freq=15000, duty_u16=0)
+#test či sa pripojime
+while True:
+    status : list[int] = nic.status()
+    if status == network.STAT_GOT_IP:
+        print(f"The ESP32 has been connected to wifi network ")#ak ESP dostalo uspesne IP adresu
+        print(f"network configuration is {nic.ifconfig()}")   #vypis
+        break  #vystupim z while slučky
+    elif status == network.STAT_WRONG_PASSWORD: # ak siet existuje ale zadal som zle heslo
+        print(f"The Wifi password is wrond")
+        machine.soft_reset() #reset ESP
+    elif status == network.STAT_NO_AP_FOUND: #wifi s takym heslom neexistuje!
+        print(f"The Wifi name is wrong")
+        machine.soft_reset()
+    elif status == network.STAT_CONNECT_FAIL: # nie som v dosahu napr
+        print(f"Connection to WiFi failed")
+        machine.soft_reset()
 
-    @staticmethod
-    def __percents_to_duty(percents: int) -> int:
-        """
-        Convert percents to the duty cycle.
+    #vypisem status
+    print(f"Current WiFi status: {nic.status()}")
+    time.sleep(1)
 
-        :param percents: percents in range 0 to 100.
-        :return: duty cycle in range 0 to 65535.
-        """
-        value: int = int(percents * (65535 / 100))
 
-        value = min(value, 65535)
-        value = max(value, 0)
+s.connect((SERVER_IP, SERVER_PORT))
+print("Pripojený k serveru")
 
-        return value
+while True:
+    user_msg = input("Zadaj spravu pre server: ")
+    s.sendall(user_msg.encode("UTF-8"))
+    time.sleep_ms(500)
 
-    def move_forward_right(self, percents: int) -> None:
-        """
-        Set the right engine to move forward based on the percent.
+    data = s.recv(1024)
+    if not data:
+        print("Server ukončil spojenie")
+        s.close()
+        break
 
-        :param percents: percentual speed of the movement.
-        :return:
-        """
-        self.__right_engine_forward.duty_u16(self.__percents_to_duty(percents))
-        self.__right_engine_reverse.duty_u16(self.__percents_to_duty(0))
+    message = data.decode("UTF-8").strip()
+    print("Server:", message)
 
-    def move_reverse_right(self, percents: int) -> None:
-        """
-        Set the right engine to move reverse based on the percent.
+    if message.lower() == "koniec":
+        print("Pokyn na ukončenie spojenia")
+        s.close()
+        break
 
-        :param percents: percentual speed of the movement.
-        :return:
-        """
-        self.__right_engine_forward.duty_u16(self.__percents_to_duty(0))
-        self.__right_engine_reverse.duty_u16(self.__percents_to_duty(percents))
-
-    def brake_right(self) -> None:
-        """
-        Brake the right engine.
-
-        :return:
-        """
-        self.__right_engine_forward.duty_u16(self.__percents_to_duty(100))
-        self.__right_engine_reverse.duty_u16(self.__percents_to_duty(100))
-
-    def coast_right(self) -> None:
-        """
-        Let the right engine coast.
-
-        :return:
-        """
-        self.__right_engine_forward.duty_u16(self.__percents_to_duty(0))
-        self.__right_engine_reverse.duty_u16(self.__percents_to_duty(0))
-
-    def move_forward_left(self, percents: int) -> None:
-        """
-        Set the left engine to move forward based on the percent.
-
-        :param percents: percentual speed of the movement.
-        :return:
-        """
-        self.__left_engine_forward.duty_u16(self.__percents_to_duty(percents))
-        self.__left_engine_reverse.duty_u16(self.__percents_to_duty(0))
-
-    def move_reverse_left(self, percents: int) -> None:
-        """
-        Set the left engine to move reverse based on the percent.
-
-        :param percents: percentual speed of the movement.
-        :return:
-        """
-        self.__left_engine_forward.duty_u16(self.__percents_to_duty(0))
-        self.__left_engine_reverse.duty_u16(self.__percents_to_duty(percents))
-
-    def brake_left(self) -> None:
-        """
-        Brake the left engine.
-
-        :return:
-        """
-        self.__left_engine_forward.duty_u16(self.__percents_to_duty(100))
-        self.__left_engine_reverse.duty_u16(self.__percents_to_duty(100))
-
-    def coast_left(self) -> None:
-        """
-        Let the left engine coast.
-
-        :return:
-        """
-        self.__left_engine_forward.duty_u16(self.__percents_to_duty(0))
-        self.__left_engine_reverse.duty_u16(self.__percents_to_duty(0))
-
-engines_instance: Engines = Engines()
-
-engines_instance.move_forward_left(65)
-engines_instance.move_forward_right(65)
-
-# engines_instance.move_reverse_left(60)
-# engines_instance.move_reverse_right(60)
-# engines_instance.brake_right()
-# engines_instance.brake_left()
 
