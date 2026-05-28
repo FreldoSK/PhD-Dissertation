@@ -11213,7 +11213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-60xx"
 			(at 77.47 172.72 0)
 			(effects
 				(font

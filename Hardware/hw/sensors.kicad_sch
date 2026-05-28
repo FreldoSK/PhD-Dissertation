@@ -10134,7 +10134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOS:SOT95P230X110-3N"
+		(property "Footprint" "NMOS:AO3400A"
 			(at 57.15 114.3 0)
 			(effects
 				(font
