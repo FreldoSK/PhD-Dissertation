@@ -4390,7 +4390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOS:SOT95P230X110-3N"
+		(property "Footprint" "NMOS:AO3400A"
 			(at 274.32 100.33 0)
 			(effects
 				(font
@@ -4902,7 +4902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOS:SOT95P230X110-3N"
+		(property "Footprint" "NMOS:AO3400A"
 			(at 160.02 113.03 0)
 			(effects
 				(font
@@ -5136,7 +5136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOS:SOT95P230X110-3N"
+		(property "Footprint" "NMOS:AO3400A"
 			(at 93.98 168.91 0)
 			(effects
 				(font
@@ -5501,7 +5501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOS:SOT95P230X110-3N"
+		(property "Footprint" "NMOS:AO3400A"
 			(at 93.98 43.18 0)
 			(effects
 				(font
@@ -6991,7 +6991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOS:SOT95P230X110-3N"
+		(property "Footprint" "NMOS:AO3400A"
 			(at 57.15 177.8 0)
 			(effects
 				(font
@@ -7294,7 +7294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOS:SOT95P230X110-3N"
+		(property "Footprint" "NMOS:AO3400A"
 			(at 196.85 43.18 0)
 			(effects
 				(font
@@ -7820,7 +7820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOS:SOT95P230X110-3N"
+		(property "Footprint" "NMOS:AO3400A"
 			(at 247.65 109.22 0)
 			(effects
 				(font
@@ -8663,7 +8663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOS:SOT95P230X110-3N"
+		(property "Footprint" "NMOS:AO3400A"
 			(at 160.02 52.07 0)
 			(effects
 				(font
@@ -8895,7 +8895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOS:SOT95P230X110-3N"
+		(property "Footprint" "NMOS:AO3400A"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -9754,7 +9754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOS:SOT95P230X110-3N"
+		(property "Footprint" "NMOS:AO3400A"
 			(at 196.85 104.14 0)
 			(effects
 				(font
@@ -10299,7 +10299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NMOS:SOT95P230X110-3N"
+		(property "Footprint" "NMOS:AO3400A"
 			(at 57.15 52.07 0)
 			(effects
 				(font
