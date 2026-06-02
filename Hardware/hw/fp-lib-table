@@ -14,4 +14,5 @@
   (lib (name "SunnyBuddy")(type "KiCad")(uri "${KIPRJMOD}/components/SunnyBuddy")(options "")(descr ""))
   (lib (name "TB010-508-03BE")(type "KiCad")(uri "${KIPRJMOD}/components/TB010-508-03BE")(options "")(descr ""))
   (lib (name "USB4085-GF-A_REVA4")(type "KiCad")(uri "${KIPRJMOD}/components/USB4085-GF-A_REVA4")(options "")(descr ""))
+  (lib (name "KF301-2P")(type "KiCad")(uri "${KIPRJMOD}/components/KF301-2P")(options "")(descr ""))
 )

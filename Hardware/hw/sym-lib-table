@@ -13,4 +13,5 @@
   (lib (name "PRT-12885")(type "KiCad")(uri "${KIPRJMOD}/components/SunnyBuddy/PRT-12885.kicad_sym")(options "")(descr ""))
   (lib (name "TB010-508-03BE")(type "KiCad")(uri "${KIPRJMOD}/components/TB010-508-03BE/TB010-508-03BE.kicad_sym")(options "")(descr ""))
   (lib (name "USB4085-GF-A_REVA4")(type "KiCad")(uri "${KIPRJMOD}/components/USB4085-GF-A_REVA4/USB4085-GF-A_REVA4.kicad_sym")(options "")(descr ""))
+  (lib (name "KF301-2P")(type "KiCad")(uri "${KIPRJMOD}/components/KF301-2P/KF301-2P.kicad_sym")(options "")(descr ""))
 )

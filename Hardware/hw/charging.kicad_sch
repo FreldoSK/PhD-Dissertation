@@ -2285,16 +2285,16 @@
 		(uuid "b46d86b2-09e8-48e7-8173-87b7ebb5e38b")
 	)
 	(junction
-		(at 271.78 52.07)
+		(at 264.16 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16d032b6-f48a-4a58-a4b9-25d7e77447bb")
 	)
 	(junction
-		(at 271.78 43.18)
+		(at 267.97 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2f05558a-c302-411d-b96b-6abb8a094393")
+		(uuid "2c14be20-c6eb-4046-8766-3be26fbb8070")
 	)
 	(junction
 		(at 48.26 26.67)
@@ -2303,10 +2303,10 @@
 		(uuid "3128d797-e2ff-4c4b-ac40-e31e85f306f8")
 	)
 	(junction
-		(at 271.78 40.64)
+		(at 264.16 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "466372ef-d2a3-4f09-9f7f-bb4f57108a4d")
+		(uuid "469036e4-407f-4d71-9313-743d4c109a2b")
 	)
 	(junction
 		(at 77.47 34.29)
@@ -2333,7 +2333,7 @@
 		(uuid "8ad5f2f7-f35c-4c04-aee4-ddc09c58199c")
 	)
 	(junction
-		(at 271.78 49.53)
+		(at 264.16 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2d53b1f-85ee-428a-bfca-e343e7d760da")
@@ -2412,6 +2412,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 29.21) (xy 35.56 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd0a87a-c165-4d0f-82bf-f31f70483a51")
+	)
+	(wire
+		(pts
 			(xy 59.69 26.67) (xy 59.69 38.1)
 		)
 		(stroke
@@ -2442,26 +2452,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 26.67) (xy 48.26 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2402d2b1-15f0-47f3-9a0a-842db1060fea")
-	)
-	(wire
-		(pts
-			(xy 271.78 34.29) (xy 271.78 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2429f7cb-b280-465e-9c40-c237abba9b5e")
-	)
-	(wire
-		(pts
 			(xy 92.71 40.64) (xy 102.87 40.64)
 		)
 		(stroke
@@ -2472,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 43.18) (xy 271.78 43.18)
+			(xy 262.89 43.18) (xy 264.16 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2482,13 +2472,23 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 43.18) (xy 271.78 49.53)
+			(xy 264.16 43.18) (xy 264.16 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32295344-0274-4bd9-88f3-2a43ef660dc6")
+	)
+	(wire
+		(pts
+			(xy 35.56 29.21) (xy 35.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350529e9-8b85-42de-b0e7-cca1851ddce0")
 	)
 	(wire
 		(pts
@@ -2542,16 +2542,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 40.64) (xy 271.78 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "511ee6d2-0b64-41e1-be7f-4768b1ebae97")
-	)
-	(wire
-		(pts
 			(xy 102.87 40.64) (xy 102.87 49.53)
 		)
 		(stroke
@@ -2569,6 +2559,26 @@
 			(type default)
 		)
 		(uuid "60b7d566-37f8-4f36-8665-e853cd23c964")
+	)
+	(wire
+		(pts
+			(xy 262.89 40.64) (xy 267.97 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d924f3-8602-4f77-8f4f-620e47ff43f3")
+	)
+	(wire
+		(pts
+			(xy 267.97 40.64) (xy 271.78 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68bb9816-6579-4769-a3fa-318c867f9b5b")
 	)
 	(wire
 		(pts
@@ -2622,6 +2632,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 43.18) (xy 271.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7724374b-4755-4547-bffd-c3c90f395da4")
+	)
+	(wire
+		(pts
 			(xy 92.71 26.67) (xy 92.71 30.48)
 		)
 		(stroke
@@ -2632,13 +2652,13 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 40.64) (xy 273.05 40.64)
+			(xy 30.48 26.67) (xy 48.26 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77aa4b14-c767-421e-ad3c-fcfe0681bd2f")
+		(uuid "80344411-a186-44a5-9925-23a6423de666")
 	)
 	(wire
 		(pts
@@ -2652,17 +2672,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 29.21) (xy 35.56 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82a72c7f-cdd2-48b0-b6c4-3b66be25d5e3")
-	)
-	(wire
-		(pts
-			(xy 262.89 49.53) (xy 271.78 49.53)
+			(xy 262.89 49.53) (xy 264.16 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2692,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 52.07) (xy 271.78 52.07)
+			(xy 262.89 52.07) (xy 264.16 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2732,16 +2742,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 29.21) (xy 35.56 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c9a728f-5d43-457e-88f9-21ce1b7486bf")
-	)
-	(wire
-		(pts
 			(xy 102.87 34.29) (xy 102.87 40.64)
 		)
 		(stroke
@@ -2749,16 +2749,6 @@
 			(type default)
 		)
 		(uuid "a08272ad-ef3e-48e3-baf2-d2769c47c735")
-	)
-	(wire
-		(pts
-			(xy 271.78 43.18) (xy 273.05 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a27ac612-ba14-45fe-9c8c-e7e2d9e17582")
 	)
 	(wire
 		(pts
@@ -2842,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 49.53) (xy 271.78 52.07)
+			(xy 264.16 49.53) (xy 264.16 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2862,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 52.07) (xy 271.78 58.42)
+			(xy 264.16 52.07) (xy 264.16 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2919,6 +2909,16 @@
 			(type default)
 		)
 		(uuid "eb3f288d-552f-4bbf-86ef-4f261d3bbe3d")
+	)
+	(wire
+		(pts
+			(xy 267.97 35.56) (xy 267.97 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec82ac00-05e5-4f66-b4a6-5ff44dfb5dd1")
 	)
 	(wire
 		(pts
@@ -3168,7 +3168,7 @@
 	)
 	(global_label "Load"
 		(shape input)
-		(at 271.78 34.29 90)
+		(at 267.97 35.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3178,7 +3178,7 @@
 		)
 		(uuid "37e9f749-0a7d-46c7-80a9-e62176d72e9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.78 26.8297 90)
+			(at 267.97 28.0997 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,6 +3385,74 @@
 			(project "hw"
 				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/cafc10db-934b-4e35-adb4-dd7509107608"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 25.4 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08a192be-37f9-4103-8930-5f8ffef2a445")
+		(property "Reference" "J1"
+			(at 25.4 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 25.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c824be2-7e54-4874-a0bb-d87813ec194f")
+		)
+		(pin "1"
+			(uuid "00974f05-f08f-4e93-941a-52acada8958c")
+		)
+		(instances
+			(project ""
+				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/cafc10db-934b-4e35-adb4-dd7509107608"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4277,7 +4345,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 58.42 0)
+		(at 264.16 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4286,7 +4354,7 @@
 		(fields_autoplaced yes)
 		(uuid "590b51e1-8206-41f5-a0f2-a252539cc9c0")
 		(property "Reference" "#PWR015"
-			(at 271.78 64.77 0)
+			(at 264.16 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4363,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 63.5 0)
+			(at 264.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +4371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 58.42 0)
+			(at 264.16 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,7 +4380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 58.42 0)
+			(at 264.16 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4389,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 58.42 0)
+			(at 264.16 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,6 +4699,75 @@
 			(project "hw"
 				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/cafc10db-934b-4e35-adb4-dd7509107608"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 276.86 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6319ef4b-5760-49dc-a6a5-b89a6f225a2b")
+		(property "Reference" "J10"
+			(at 279.4 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 281.686 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 276.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 276.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ec4e6d6-c366-4922-a833-e500f48c626b")
+		)
+		(pin "1"
+			(uuid "6f095e6d-217e-44af-a858-280484de6f2e")
+		)
+		(instances
+			(project "hw"
+				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/cafc10db-934b-4e35-adb4-dd7509107608"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -5299,73 +5436,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 26.67 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7cd3f73-c092-4794-b274-0074745b227f")
-		(property "Reference" "J1"
-			(at 23.876 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 21.336 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 26.67 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd0d1296-fd49-4f32-846c-3e774a97bcd7")
-		)
-		(pin "2"
-			(uuid "885f8289-a570-4eb7-a09e-c4f6dd63dd0d")
-		)
-		(instances
-			(project "hw"
-				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/cafc10db-934b-4e35-adb4-dd7509107608"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 102.87 124.46 0)
 		(unit 1)
@@ -5892,73 +5962,6 @@
 			(project "hw"
 				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/cafc10db-934b-4e35-adb4-dd7509107608"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 278.13 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e66d4bf1-deec-4438-8cc8-4d76a093343f")
-		(property "Reference" "J2"
-			(at 280.924 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 283.464 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 278.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 278.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cda24e76-0b45-4fbf-a775-e29a7e28572d")
-		)
-		(pin "2"
-			(uuid "41763ef5-8a84-4c33-a228-60eb01373892")
-		)
-		(instances
-			(project "hw"
-				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/cafc10db-934b-4e35-adb4-dd7509107608"
-					(reference "J2")
 					(unit 1)
 				)
 			)
