@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "PMOS-SOT23"
+	(property "Value" "PMOS-DMP4065S-7"
 		(at 7.275 2.615 0)
 		(layer "F.Fab")
 		(uuid "6271135a-e551-4e75-b07e-c689ccd4e228")
@@ -89,17 +89,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "81cbf3ad-a086-4c47-835e-5760ba8d1189")
-	)
-	(fp_circle
-		(center -1.025434 -1.72776)
-		(end -1.122321 -1.72776)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "6b3df562-3f9f-4f68-a170-f6c232c892d6")
 	)
 	(fp_line
 		(start -1.9 -2)
