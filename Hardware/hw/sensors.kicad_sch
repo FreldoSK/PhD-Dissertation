@@ -814,7 +814,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148WS"
+		(symbol "Diode:1N4448W"
 			(pin_numbers
 				(hide yes)
 			)
@@ -832,7 +832,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4148WS"
+			(property "Value" "1N4448W"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -840,7 +840,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
+			(property "Footprint" "Diode_SMD:D_SOD-123"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -849,7 +849,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -858,7 +858,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
 				(at 0 0 0)
 				(effects
 					(font
@@ -894,7 +894,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?323*"
+			(property "ki_fp_filters" "D*SOD?123*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -903,7 +903,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N4148WS_0_1"
+			(symbol "1N4448W_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -941,7 +941,7 @@
 					)
 				)
 			)
-			(symbol "1N4148WS_1_1"
+			(symbol "1N4448W_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -5851,94 +5851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 217.17 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36f87f82-2788-4ff2-8aa7-31489ffe24aa")
-		(property "Reference" "D2"
-			(at 219.71 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "STS321050B100-EA"
-			(at 219.71 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 221.615 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 217.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 217.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 217.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6898cc94-e56f-47ac-bbed-05df2df0fb01")
-		)
-		(pin "2"
-			(uuid "40304aec-623b-4ed5-8b1c-e42fd6a547c4")
-		)
-		(instances
-			(project ""
-				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/d9cf18c0-974c-45c8-8ea1-a49ffa03ac64"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 173.99 106.68 90)
 		(unit 1)
@@ -9513,6 +9425,94 @@
 			(project "hw"
 				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/d9cf18c0-974c-45c8-8ea1-a49ffa03ac64"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448W")
+		(at 217.17 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc640c47-b22c-4eec-bee5-9c2857ba6532")
+		(property "Reference" "D3"
+			(at 219.71 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448W"
+			(at 219.71 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 221.615 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
+			(at 217.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
+			(at 217.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 217.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 217.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea316001-35c3-4d18-b2ac-e8f48b877717")
+		)
+		(pin "2"
+			(uuid "07e88c0b-9826-4c3a-8ba0-ea89016525c5")
+		)
+		(instances
+			(project ""
+				(path "/e8888c0f-4960-4960-b96f-1ca6e03d7c29/d9cf18c0-974c-45c8-8ea1-a49ffa03ac64"
+					(reference "D3")
 					(unit 1)
 				)
 			)

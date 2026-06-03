@@ -3563,7 +3563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.tme.eu/Document/c42b685a867c2357b9b6fbef79d340fe/DMP4065S.pdf"
 			(at 57.15 29.21 0)
 			(effects
 				(font
